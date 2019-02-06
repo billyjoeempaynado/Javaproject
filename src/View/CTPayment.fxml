@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="715.0" prefWidth="1350.0" style="-fx-background-color: #E5E5E5;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CTPaymentController">
+   <children>
+      <AnchorPane prefHeight="93.0" prefWidth="1352.0" style="-fx-background-color: #438ADD;" AnchorPane.bottomAnchor="622.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="67.0" fitWidth="63.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1274.75634765625" AnchorPane.topAnchor="15.0">
+               <image>
+                  <Image url="@../ctIcons/icons8_Film_Reel_96px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="88.0" layoutY="14.0" text="Pop’s Theatre" textFill="WHITE" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="1076.75634765625" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Century Gothic Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="88.0" layoutY="51.0" prefHeight="28.0" prefWidth="187.0" text="Payment:" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="1077.0" AnchorPane.topAnchor="51.0">
+               <font>
+                  <Font name="Century Gothic" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="CTPayment_exit" fitHeight="28.0" fitWidth="40.0" layoutX="1310.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="1310.0" AnchorPane.rightAnchor="13.75634765625" AnchorPane.topAnchor="14.0">
+               <image>
+                  <Image url="@../ctIcons/icons8_Delete_96px_1.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="93.0" prefHeight="622.0" prefWidth="1352.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="93.0">
+         <children>
+            <AnchorPane layoutX="470.0" layoutY="69.0" prefHeight="485.0" prefWidth="416.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="68.0" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="471.0" AnchorPane.topAnchor="69.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+               <children>
+                  <AnchorPane layoutX="97.0" layoutY="15.0" prefHeight="54.0" prefWidth="314.0" style="-fx-background-color: #438ADD;" AnchorPane.bottomAnchor="416.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="15.0">
+                     <children>
+                        <Label layoutX="23.0" layoutY="16.0" prefHeight="54.0" prefWidth="291.0" text="MOVIE DETAILS" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font name="Agency FB Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="27.0" layoutY="92.0" prefHeight="126.0" prefWidth="356.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="267.0" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="27.75634765625" AnchorPane.topAnchor="92.0">
+                     <effect>
+                        <DropShadow height="5.0" radius="2.0" width="5.0" />
+                     </effect>
+                     <children>
+                        <Label fx:id="CTPayment_moviedetails_moviename" layoutX="14.0" layoutY="14.0" prefHeight="17.0" prefWidth="241.0" text="Movie Name here" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="101.0" AnchorPane.topAnchor="14.0">
+                           <font>
+                              <Font name="Century Gothic Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="CTPayment_moviedetails_movieprice" layoutX="13.0" layoutY="50.0" prefHeight="17.0" prefWidth="241.0" text="Movie price here" AnchorPane.bottomAnchor="49.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="100.0" AnchorPane.topAnchor="50.0">
+                           <font>
+                              <Font name="Century Gothic Bold" size="21.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="CTPayment_moviedetails_movieguidance" layoutX="13.0" layoutY="85.0" prefHeight="17.0" prefWidth="241.0" text="Movie guidance" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="13.0" AnchorPane.rightAnchor="107.24365234375" AnchorPane.topAnchor="85.0">
+                           <font>
+                              <Font name="Century Gothic Bold" size="21.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="102.0" layoutY="243.0" prefHeight="54.0" prefWidth="314.0" style="-fx-background-color: #438ADD;">
+                     <children>
+                        <Label layoutX="23.0" layoutY="16.0" prefHeight="54.0" prefWidth="291.0" text="PAYMENT" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <font>
+                              <Font name="Agency FB Bold" size="32.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane layoutX="27.0" layoutY="321.0" prefHeight="152.0" prefWidth="361.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="27.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="321.0">
+                     <effect>
+                        <DropShadow height="5.0" radius="2.0" width="5.0" />
+                     </effect>
+                     <children>
+                        <JFXButton fx:id="CTPayment_button_pay" layoutX="243.0" layoutY="105.0" prefHeight="33.0" prefWidth="104.0" style="-fx-background-color: #35C099;" text="PAY" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="243.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="105.0">
+                           <font>
+                              <Font name="Agency FB Bold" size="17.0" />
+                           </font>
+                           <graphic>
+                              <ImageView fitHeight="15.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../ctIcons/icons8_Money_96px.png" />
+                                 </image>
+                              </ImageView>
+                           </graphic>
+                        </JFXButton>
+                        <Label layoutX="16.0" layoutY="28.0" prefHeight="22.0" prefWidth="92.0" text="Quantity:" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="253.0" AnchorPane.topAnchor="28.0">
+                           <font>
+                              <Font name="Century Gothic" size="17.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="CTPayment_txtfield_amount" layoutX="98.0" layoutY="26.0" prefHeight="27.0" prefWidth="248.0" promptText="Your money" AnchorPane.bottomAnchor="63.0" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="62.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </TextField>
+                        <Label layoutX="16.0" layoutY="65.0" prefHeight="22.0" prefWidth="92.0" text="Money:" AnchorPane.bottomAnchor="65.0" AnchorPane.leftAnchor="16.0" AnchorPane.rightAnchor="253.0" AnchorPane.topAnchor="65.0">
+                           <font>
+                              <Font name="Century Gothic" size="17.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="CTPayment_txtfield_quantity" editable="false" layoutX="98.0" layoutY="26.0" prefHeight="27.0" prefWidth="248.0" promptText="Number of tickets you want to buy" AnchorPane.bottomAnchor="99.0" AnchorPane.leftAnchor="98.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="26.0">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

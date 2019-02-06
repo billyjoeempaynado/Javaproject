@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="715.0" prefWidth="1350.0" style="-fx-background-color: #E5E5E5;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CTSeatsController">
+   <children>
+      <AnchorPane prefHeight="93.0" prefWidth="1352.0" style="-fx-background-color: #438ADD;" AnchorPane.bottomAnchor="622.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="67.0" fitWidth="63.0" layoutX="14.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="1274.75634765625" AnchorPane.topAnchor="15.0">
+               <image>
+                  <Image url="@../ctIcons/icons8_Film_Reel_96px.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="88.0" layoutY="14.0" text="Pop’s Theatre" textFill="WHITE" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="1076.75634765625" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Century Gothic Bold" size="29.0" />
+               </font>
+            </Label>
+            <Label layoutX="88.0" layoutY="51.0" prefHeight="28.0" prefWidth="187.0" text="Reserve Seats:" textFill="WHITE" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="88.0" AnchorPane.rightAnchor="1077.0" AnchorPane.topAnchor="51.0">
+               <font>
+                  <Font name="Century Gothic" size="22.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="CTSeats_exit" fitHeight="28.0" fitWidth="40.0" layoutX="1310.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="51.0" AnchorPane.leftAnchor="1310.0" AnchorPane.rightAnchor="13.75634765625" AnchorPane.topAnchor="14.0">
+               <image>
+                  <Image url="@../ctIcons/icons8_Delete_96px_1.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="17.0" layoutY="108.0" prefHeight="589.0" prefWidth="1317.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="18.0" AnchorPane.leftAnchor="17.0" AnchorPane.rightAnchor="17.75634765625" AnchorPane.topAnchor="108.0">
+         <effect>
+            <DropShadow height="5.0" radius="2.0" width="5.0" />
+         </effect>
+         <children>
+            <AnchorPane layoutX="293.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="293.0" AnchorPane.rightAnchor="950.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_1" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 1" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="731.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="731.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_7" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 7" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="366.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="366.0" AnchorPane.rightAnchor="877.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_2" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 2" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="439.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="439.0" AnchorPane.rightAnchor="804.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_3" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 3" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="513.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="512.0" AnchorPane.rightAnchor="731.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_4" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 4" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="585.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="585.0" AnchorPane.rightAnchor="658.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_5" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 5" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="658.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="658.0" AnchorPane.rightAnchor="585.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_6" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 6" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="804.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="804.0" AnchorPane.rightAnchor="439.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_8" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 8" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="877.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="877.0" AnchorPane.rightAnchor="366.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_9" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 9" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="950.0" layoutY="486.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="950.0" AnchorPane.rightAnchor="293.0" AnchorPane.topAnchor="486.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_10" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 10" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="293.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="293.0" AnchorPane.rightAnchor="950.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_11" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 11" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="366.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="366.0" AnchorPane.rightAnchor="877.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_12" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 12" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="439.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="439.0" AnchorPane.rightAnchor="804.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_13" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 13" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="512.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="512.0" AnchorPane.rightAnchor="731.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_14" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 14" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="731.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="585.0" AnchorPane.rightAnchor="658.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_15" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 15" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="731.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="731.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_17" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 17" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="658.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="658.0" AnchorPane.rightAnchor="585.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_16" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 16" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="804.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="804.0" AnchorPane.rightAnchor="439.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_18" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 18" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="877.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="877.0" AnchorPane.rightAnchor="366.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_19" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 19" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="950.0" layoutY="414.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="102.0" AnchorPane.leftAnchor="950.0" AnchorPane.rightAnchor="293.0" AnchorPane.topAnchor="414.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_20" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 20" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="293.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="293.0" AnchorPane.rightAnchor="950.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_21" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 21" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="366.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="366.0" AnchorPane.rightAnchor="877.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_22" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 22" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="439.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="439.0" AnchorPane.rightAnchor="804.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_23" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 23" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="512.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="512.0" AnchorPane.rightAnchor="731.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_24" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 24" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="585.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="585.0" AnchorPane.rightAnchor="658.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_25" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 25" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="658.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="658.0" AnchorPane.rightAnchor="585.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_26" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 26" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="731.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="731.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_27" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 27" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="804.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="804.0" AnchorPane.rightAnchor="439.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_28" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 28" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="877.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="877.0" AnchorPane.rightAnchor="366.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_29" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 29" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="950.0" layoutY="272.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="244.0" AnchorPane.leftAnchor="950.0" AnchorPane.rightAnchor="293.0" AnchorPane.topAnchor="272.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_30" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 30" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="293.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;">
+               <children>
+                  <JFXCheckBox focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 21" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="366.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="366.0" AnchorPane.rightAnchor="877.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_34" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 34" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="439.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="439.0" AnchorPane.rightAnchor="804.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_35" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 35" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="512.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="512.0" AnchorPane.rightAnchor="731.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_36" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 36" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="585.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="585.0" AnchorPane.rightAnchor="658.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_37" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 37" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="658.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="658.0" AnchorPane.rightAnchor="585.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_38" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 38" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="731.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="731.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_39" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 39" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="804.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="293.0" AnchorPane.rightAnchor="950.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_33" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 33" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="804.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="804.0" AnchorPane.rightAnchor="439.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_40" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 40" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="877.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="877.0" AnchorPane.rightAnchor="366.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_41" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 41" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="950.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="950.0" AnchorPane.rightAnchor="293.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_42" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 42" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="220.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="220.0" AnchorPane.rightAnchor="1023.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_32" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 32" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="147.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="147.0" AnchorPane.rightAnchor="1096.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_31" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 31" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1023.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="1023.0" AnchorPane.rightAnchor="220.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_43" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 43" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1096.0" layoutY="200.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="316.0" AnchorPane.leftAnchor="1096.0" AnchorPane.rightAnchor="147.0" AnchorPane.topAnchor="200.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_44" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 44" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1096.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="1096.0" AnchorPane.rightAnchor="147.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_58" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 58" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="877.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="877.0" AnchorPane.rightAnchor="366.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_55" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 55" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1023.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="1023.0" AnchorPane.rightAnchor="220.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_57" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 57" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="950.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="950.0" AnchorPane.rightAnchor="293.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_56" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 56" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="804.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="804.0" AnchorPane.rightAnchor="439.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_54" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 54" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="731.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="731.0" AnchorPane.rightAnchor="512.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_53" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 53" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="658.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="658.0" AnchorPane.rightAnchor="585.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_52" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 52" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="585.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="585.0" AnchorPane.rightAnchor="658.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_51" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 51" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="512.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="512.0" AnchorPane.rightAnchor="731.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_50" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 50" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="439.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="439.0" AnchorPane.rightAnchor="804.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_49" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 49" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="366.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="366.0" AnchorPane.rightAnchor="877.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_48" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 48" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="293.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="293.0" AnchorPane.rightAnchor="950.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_47" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 47" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="220.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.rightAnchor="1023.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_46" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 46" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="147.0" layoutY="128.0" prefHeight="73.0" prefWidth="74.0" style="-fx-background-color: white; -fx-border-color: black;" AnchorPane.bottomAnchor="388.0" AnchorPane.leftAnchor="147.0" AnchorPane.rightAnchor="1096.0" AnchorPane.topAnchor="128.0">
+               <children>
+                  <JFXCheckBox fx:id="CT_seat_45" focusTraversable="false" layoutX="-5.0" prefHeight="28.0" prefWidth="28.0" text=" " AnchorPane.bottomAnchor="43.0" AnchorPane.leftAnchor="-5.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="0.0" />
+                  <Label layoutX="6.0" layoutY="28.0" text="Seat #: 45" AnchorPane.bottomAnchor="26.0" AnchorPane.leftAnchor="6.0" AnchorPane.rightAnchor="8.0" AnchorPane.topAnchor="28.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="7.0" layoutY="46.0" text="Regular" AnchorPane.bottomAnchor="9.0" AnchorPane.leftAnchor="7.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="45.0">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <JFXButton fx:id="CTSeats_button_payment" focusTraversable="false" layoutX="1063.0" layoutY="14.0" prefHeight="37.0" prefWidth="215.0" style="-fx-background-color: #35C099;" text="PAYMENT" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ctIcons/icons8_Money_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="CTSeats_button_backtolist" focusTraversable="false" layoutX="25.0" layoutY="14.0" prefHeight="37.0" prefWidth="215.0" style="-fx-background-color: #DE5246;" text="BACK TO LIST" textFill="WHITE">
+               <font>
+                  <Font name="Agency FB Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="30.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../ctIcons/icons8_Back_To_96px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
